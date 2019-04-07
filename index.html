@@ -14,7 +14,7 @@
     <div class="uk-background-secondary uk-height-viewport uk-width-1-1@l uk-position-absolute"></div>
     <div class="headBG"></div>
     <header>
-        <div class="wrapper uk-flex" uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
+        <div class="wrapper uk-flex" style="z-index: 12000;" uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
             <div class="logo mt:40px">
                 <img src=".//assets/img/platStet.png" alt="">
                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary" href="#"></a>
@@ -33,7 +33,7 @@
                 </div>
             </nav>
             <div id="main">
-                <nav class="uk-navbar-container"  uk-navbar="dropbar: true" style="position: relative; z-index: 980;">
+                <nav class="uk-navbar-container"  uk-navbar style="position: relative; z-index: 980;">
                     <div class="main-container">
                         <div class="uk-navbar-left">
                             <ul class="uk-navbar-nav">
@@ -139,17 +139,6 @@
                                 </li>
                                 <li>
                                     <a href="#">Contact Us <span>How to reach us</span></a>
-                                    <div class="uk-navbar-dropdown">
-                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            <li class="uk-active"><a href="#">Active</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li class="uk-nav-header">Header</li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li class="uk-nav-divider"></li>
-                                            <li><a href="#">Item</a></li>
-                                        </ul>
-                                    </div>
                                 </li>
                             </ul>
                             <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary" href="#"></a>
@@ -264,39 +253,49 @@
         </div>
         <div class="uk-grid-collapse policy---cards uk-child-width-1-5@m" uk-grid
              uk-height-match="target: > div > div">
-                <a class="uk-inline" uk-toggle="cls: active; mode: hover;">
+                <a class="uk-inline active" uk-toggle="cls: active; mode: hover;">
+                    <div>
                     <img src=".//assets/img/pol-1.jpg" alt="">
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-middle">
                         <h1>1</h1>
                         <p>Human Capital Development & Social Welfare </p>
                     </div>
+                    </div>
                 </a>
                 <a class="uk-inline" uk-toggle="cls: active; mode: hover;">
+                    <div>
                     <img src=".//assets/img/pol-2.jpg" alt="">
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-middle">
                         <h1>2</h1>
                         <p>Peace, Security &  Good Governance</p>
                     </div>
+                    </div>
                 </a>
                 <a class="uk-inline" uk-toggle="cls: active; mode: hover;">
+                    <div>
                     <img src=".//assets/img/pol-3.jpg" alt="">
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-middle">
                         <h1>3</h1>
                         <p>Physical Infrastructure &  Environment </p>
                     </div>
+                    </div>
                 </a>
                 <a class="uk-inline" uk-toggle="cls: active; mode: hover;">
+                    <div>
                     <img src=".//assets/img/pol-4.jpg" alt="">
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-middle">
                         <h1>4</h1>
                         <p>Agriculture &  Rural Development </p>
                     </div>
+                    </div>
                 </a>
                 <a class="uk-inline" uk-toggle="cls: active; mode: hover;">
+                    <div>
                     <img src=".//assets/img/pol-5.jpg" alt="">
                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-middle">
                         <h1>5</h1>
                         <p>Entrepreneurship &  Industralization </p>
+                    </div>
                     </div>
                 </a>
         </div>
@@ -349,7 +348,7 @@
     </section>
     <footer>
         <div class="footer-nav">
-            <img src="/assets/img/map.jpg" alt="">
+            <img src="./assets/img/map.jpg" alt="">
         </div>
         <div class="footer-nav">
             <h5 class="footer-title">Jos City</h5>
