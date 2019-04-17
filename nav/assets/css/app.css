@@ -15784,12 +15784,6 @@ body {
     font: 14px "open sans", Arial, sans-serif;
 }
 
-ul.navbar {
-    margin: 2em auto;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 0 #555;
-}
-
 ul.navbar li {
     float: left;
     margin: 0;
@@ -15802,7 +15796,7 @@ ul.navbar li a {
     color: #333 !important;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 ul.navbar li a:hover,
@@ -15815,18 +15809,19 @@ ul.navbar li ul {
     margin: 0;
     position: absolute;
     background: #ffffff;
-    left: 2em;
+    left: 80%;
     font-size: 14px;
     min-width: 200px;
     opacity: 0;
     visibility: hidden;
     z-index: 99;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 ul.navbar li ul li { border-top: 1px solid #2a2a2a; }
 ul.navbar li ul li:first-child { border: 0;}
 ul.navbar ul li { float: none; }
-ul.navbar li:hover > ul { opacity: 1; visibility: visible; left: 0; }
+ul.navbar li:hover > ul { opacity: 1; visibility: visible; left: 100%;
+    top: 0; }
 ul.navbar li > ul  ul { top: 0; left: 90%; box-shadow: 0 5px 10px rgba(0,0,0,.6);}
 ul.navbar li > ul li:hover ul { left: 100%; }
