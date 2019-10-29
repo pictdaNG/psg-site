@@ -15370,7 +15370,7 @@ html, .body {
     width: calc((50%) - (30px));
     border: 2px solid white;
     height: 350px;
-    background: #242b30; }
+    background: #ffffff; }
     @media (max-width: 1024px) {
       .little--slider .slide-navigation {
         width: 100%;
