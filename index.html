@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <style>
         .little--slider .slide-navigation {
-            background: #2e6c4e; }
+            background: #2e6c4e;
+        }
+
+        @media (max-width: 992px) {
+            .little--slider .slide-navigation {
+                height: auto!important;
+            }
+            .uk-thumbnav img{
+                margin-top: 10px;
+            }
+        }
         .uk-thumbnav > * > *::after{
             background: transparent;
         }
